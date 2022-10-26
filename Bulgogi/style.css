@@ -86,7 +86,7 @@ button{
 
 .box2{
     position: fixed;
-    top: 10%;
+    top: 35%;
     left: 50%;
     width: 500px;
     transform: translate(-50%, -50%) scale(1);
