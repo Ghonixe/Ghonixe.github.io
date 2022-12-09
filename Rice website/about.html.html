@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Hilapo rice dealer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+    href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Screenshot (138).png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i
+            class="fa fa-times-circle"
+            aria-hidden="true"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!------- about us content----->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We have the best rice in the Philippines</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            deleniti facilis quibusdam, cum consectetur quam corporis assumenda
+            sapiente, ipsum corrupti eveniet temporibus iure qui explicabo
+            molestias, voluptas laudantium ullam consequatur?
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLIRE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="banner2.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos,
+        officia tempora, vitae architecto dolorum ab ullam harum assumenda minus
+        ea, autem eveniet commodi fugiat earum. Repellendus dolor nihil ullam!
+      </p>
+    </section>
+
+    <!-------Javascript for toggle Menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
